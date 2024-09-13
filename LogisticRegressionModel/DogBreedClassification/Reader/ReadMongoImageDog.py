@@ -1,5 +1,5 @@
 import sys 
-sys.path.append('../Shared/Shared.ReadData/Abstraction')
+sys.path.append('E:/dog_breed_classification/LogisticRegressionModel/Shared/Shared.ReadData/Abstraction')
 from AReadMongoDBImage import AReadMongoDBImage
 
 class ReadMongoImage(AReadMongoDBImage):

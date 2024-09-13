@@ -6,7 +6,7 @@ import sys
 import os
 import glob
 
-sys.path.append('../Shared/Shared.ReadData/Model')
+sys.path.append('E:/dog_breed_classification/LogisticRegressionModel/Shared/Shared.ReadData/Model')
 from IReadData import IReadData 
 
 @ zope.interface.implementer(IReadData)

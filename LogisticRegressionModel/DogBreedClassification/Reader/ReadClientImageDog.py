@@ -1,7 +1,7 @@
 import sys 
 
 # paths = ['../Shared/Shared.ReadData/Abstraction']
-sys.path.append('E:/LogisticRegressionProject/LogisticRegression/Shared/Shared.ReadData/Abstraction')
+sys.path.append('E:/dog_breed_classification/LogisticRegressionModel/Shared/Shared.ReadData/Abstraction')
     
 from AReadClientImage import AReadClientImage 
 from abc import ABC

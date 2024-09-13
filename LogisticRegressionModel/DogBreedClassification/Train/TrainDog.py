@@ -2,7 +2,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 import sys 
 
-sys.path.append('E:/LogisticRegressionProject/LogisticRegression/Shared/Shared.Model/Abstraction')
+sys.path.append('E:/dog_breed_classification/LogisticRegressionModel/Shared/Shared.Model/Abstraction')
 from ALogisticRegression import ALogisticRegression
 
 class TrainLogisticRegression(ALogisticRegression):

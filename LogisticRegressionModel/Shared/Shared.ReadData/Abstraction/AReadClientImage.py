@@ -9,7 +9,7 @@ from io import BytesIO
 import requests
 
 # sys.path.append('../Shared/Shared.ReadData/Model')
-sys.path.append('E:/LogisticRegressionProject/LogisticRegression/Shared/Shared.ReadData/Model')
+sys.path.append('E:/dog_breed_classification/LogisticRegressionModel/Shared/Shared.ReadData/Model')
 from IReadData import IReadData
 
 @zope.interface.implementer(IReadData)
@@ -19,7 +19,7 @@ class AReadClientImage(ABC):
         
     def readData(self):
         # try:
-        image = Image.open(self.image_url).convert('RGB')
+        image = [Image.open(self.image_url).convert('RGB')]
         return image
         # except Exception as e:
         #     print(f"Failed to read the image: {str(e)}")

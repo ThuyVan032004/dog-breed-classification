@@ -34,7 +34,7 @@ export const imagePredict = async (req: Request, res: Response) => {
             mode: 'text',
             pythonPath: 'python',
             pythonOptions: ['-u'], // get print results in real-time
-            scriptPath: 'E:/LogisticRegressionProject/LogisticRegression/DogBreedClassification/',
+            scriptPath: 'E:/dog_breed_classification/LogisticRegressionModel/DogBreedClassification/',
             args: [filepath] 
         };
 

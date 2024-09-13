@@ -11,7 +11,7 @@ def application(img_url):
     image_processor.resize(150, 150)
     image_processor.flattenImage()
     X = image_processor.img_set
-    model = joblib.load("E:/LogisticRegressionProject/LogisticRegression/DogBreedClassification/TrainDog.joblib")
+    model = joblib.load("E:/dog_breed_classification/LogisticRegressionModel/DogBreedClassification/TrainDog.joblib")
     prediction = int(model.predict(X)[0])
     return prediction
 

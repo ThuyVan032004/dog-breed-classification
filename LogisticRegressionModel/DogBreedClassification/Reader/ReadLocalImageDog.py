@@ -1,6 +1,6 @@
 import sys 
 
-paths = ['../Shared/Shared.ReadData/Abstraction']
+paths = ['E:/dog_breed_classification/LogisticRegressionModel/Shared/Shared.ReadData/Abstraction']
 for path in paths:
     sys.path.append(path)
 

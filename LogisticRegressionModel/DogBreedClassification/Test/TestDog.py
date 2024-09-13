@@ -2,7 +2,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 import sys 
 import seaborn as sns
 
-sys.path.append('E:/LogisticRegressionProject/LogisticRegression/Shared/Shared.Model/Abstraction')
+sys.path.append('E:/dog_breed_classification/LogisticRegressionModel/Shared/Shared.Model/Abstraction')
 
 from ALogisticRegression import ALogisticRegression
 

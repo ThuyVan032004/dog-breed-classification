@@ -7,7 +7,7 @@ import os
 import glob
 from pymongo import MongoClient
 
-sys.path.append('../Shared/Shared.ReadData/Model')
+sys.path.append('E:/dog_breed_classification/LogisticRegressionModel/Shared/Shared.ReadData/Model')
 from IReadData import IReadData
 
 @ zope.interface.implementer(IReadData)

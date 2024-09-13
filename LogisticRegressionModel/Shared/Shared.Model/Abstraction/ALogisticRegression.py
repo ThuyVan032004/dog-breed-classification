@@ -4,7 +4,7 @@ import seaborn as sns
 from abc import ABC
 import sys 
 
-sys.path.append('E:/LogisticRegressionProject/LogisticRegression/Shared/Shared.Model/Model')
+sys.path.append('E:/dog_breed_classification/LogisticRegressionModel/Shared/Shared.Model/Model')
 from ILogisticRegression import ILogisticRegression
 
 @ zope.interface.implementer(ILogisticRegression)
